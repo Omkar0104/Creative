@@ -1,0 +1,832 @@
+*
+{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html
+{
+	font-size: 18px;
+	color: #2f3031;
+	background-color: #dfe1e1;
+	font-family: 'Poppins', sans-serif;
+}
+
+header
+{
+	height: 100vh;
+	width: 100%;
+	position: relative;
+	z-index: 3;
+}
+
+header > img
+{
+	position: absolute;
+	height: 100vh;
+	width: 86%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+#logo 
+{
+	position: absolute;
+	width: 54px;
+	height: 27px;
+	top: 5%;
+	left: 18%;
+}
+
+h1
+{
+	position: absolute;
+	color: #f6faff;
+	font-size: 24px;
+	font-weight: bold;
+	font-style: italic;
+	top: 4.5%;
+	left: 22%;
+}
+
+h1 > a 
+{
+	text-decoration: none;
+	color: #f6faff;
+	cursor: pointer;
+}
+
+header nav 
+{
+	position: absolute;
+	right: 20.8%;
+	top: 5%;
+	float: right;
+	color: #404245;
+	font-size: 16px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+ul
+{
+	list-style-type: none;
+	text-align: center;
+}
+
+ul a:hover 
+{
+	cursor: pointer;
+	color: #f6faff;
+}
+
+ul > li 
+{
+	float: left;
+	width: 130px;
+	display: inline-block;
+}
+
+ul > li:first-child
+{
+	width: 80px;
+}
+
+ul > li:first-child > a 
+{
+	text-decoration: none;
+	color: #f6faff;
+}
+
+ul > li:first-child > a:hover
+{
+	color: #08fab7;
+}
+
+.button
+{
+	width: 216px;
+	height: 64px;
+	border-radius: 5px;
+	border: 2px solid #f6faff;
+	position: absolute;
+	left: 37%;
+	bottom: 42%;
+}
+
+.button:hover 
+{
+	cursor: pointer;
+	border: 2px solid #05fab6;
+}
+
+#ellipse
+{
+	float: left;
+	position: absolute;
+	top: 25%;
+	left: 11%;
+}
+
+.button p
+{
+	float: left;
+	color: #f6faff;
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+	position: absolute;
+	top: 25%;
+	left: 23%;
+}
+
+#line 
+{
+	float: left;
+	position: absolute;
+	right: -13%;
+	top: 17%;
+}
+
+main
+{
+	position: relative;
+	width: 100%;
+	margin-top: -12vh;
+}
+
+section:nth-child(1)
+{
+	position: relative;
+	height: 90vh;
+	background-color: white;
+	width: 86%;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 2;
+}
+
+section:nth-child(2)
+{
+	position: relative;
+	height: 95vh;
+	background-color: #f8fafa;
+	width: 86%;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 1;
+}
+
+section:nth-child(3)
+{
+	position: relative;
+	height: 145vh;
+	background-color: white;
+	width: 86%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+section:nth-child(4)
+{
+	position: relative;
+	height: 70vh;
+	background-color: white;
+	width: 86%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.intro
+{
+	position: relative;
+	left: 15%;
+	width: 900px;
+	top: 15%;
+}
+
+h2 
+{
+	font-size: 72px;
+}
+
+section > p 
+{
+	opacity: 0.84;
+	font-size: 18px;
+	line-height: 26px;
+	font-weight: 400;
+}
+
+h3 
+{
+	font-size: 48px;
+	line-height: 26px;
+	font-style: italic;
+	position: absolute;
+	top: 47%;
+}
+
+.contener
+{
+	position: relative;
+	left: 15%;
+	width: 1200px;
+	top: 25%;
+}
+
+.content > img 
+{
+	position: absolute;
+	z-index: 1;
+	top: 0%;
+}
+
+.content
+{
+	float: left;
+	width: 330px;
+	height: 270px;
+	margin-right: 40px;
+	position: relative;
+}
+
+.content p 
+{
+	position: absolute;
+	font-size: 18px;
+	line-height: 26px;
+	font-weight: 600;
+	bottom: 0%;
+}
+
+.rectangle
+{
+	position: absolute;
+	top: 15%;
+	left: 3%;
+}
+
+#text
+{
+	position: absolute;
+	right: 4%;
+	top: 10%;
+}
+
+section:nth-child(1) > img 
+{
+	position: absolute;
+	right: 7%;
+	bottom: -12%;
+	z-index: 1;
+}
+
+h4 
+{
+	font-size: 36px;
+	font-weight: bold;
+	line-height: 26px;
+	top: 27%;
+	position: absolute;
+}
+
+section:nth-child(2) > .intro
+{
+	position: relative;
+	top: 12%;
+}
+
+section:nth-child(2) > .contener > .content
+{
+	height: 330px;
+}
+
+section:nth-child(2) > .contener > .content > p  
+{
+	position: absolute;
+	bottom: 32%;
+}
+
+section:nth-child(2) > .contener > .content > .button
+{
+	width: 216px;
+	height: 64px;
+	border-radius: 5px;
+	border: 2px solid #2f3031;
+	position: absolute;
+	left: 0%;
+	bottom: 0%;
+}
+
+section:nth-child(2) > .contener > .content > .button:hover
+{
+	cursor: pointer;
+	border: 2px solid #05fab6;
+}
+
+section:nth-child(2) > .contener > .content > .button > p
+{
+	float: left;
+	color: #2f3031;
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+	position: absolute;
+	top: 25%;
+	left: 23%;
+}
+
+section:nth-child(2) > img 
+{
+	position: absolute;
+	left: 9.5%;
+	bottom: -12%;
+	z-index: 1;
+}
+
+section:nth-child(3) > .intro
+{
+	position: absolute;
+	top: 10%;
+}
+
+section:nth-child(3) > ul
+{
+	list-style-type: none;
+	position: absolute;
+	left: 15%;
+	top: 27%;
+	color: #2f3031;
+	font-size: 18px;
+	font-weight: bold;
+	width: 700px;
+}
+
+section:nth-child(3) > ul > li
+{
+	float: left;
+	display: inline-block;
+	text-align: left;
+	width: 200px;
+}
+
+section:nth-child(3) > ul > li > a 
+{
+	text-decoration: none;
+	color: #2f3031;
+}
+
+section:nth-child(3) > ul > li > a:hover 
+{
+	color: #08fab7;
+}
+
+section:nth-child(3) > ul > li:first-child
+{
+	width: 90px;
+}
+
+section:nth-child(3) > ul > li:nth-child(2)
+{
+	width: 207px;
+}
+
+.projects
+{
+	position: relative;
+	text-align: center;
+	left: 50%;
+	transform: translateX(-50%);
+	top: 33%;
+}
+
+.project
+{
+	display: inline-block;
+	position: relative;
+	width: 398px;
+	height: 386px;
+}
+
+.project > img 
+{
+	position: absolute;
+	width: 398px;
+	height: 386px;
+}
+
+.overlay
+{
+	position: relative;
+	width: 398px;
+	height: 386px;
+}
+
+.overlay .link 
+{
+	position: absolute;
+	display: block;
+	width: 398px;
+	height: 386px;
+	background-color: #05fab8;
+	left: 0px;
+	top: 0px;
+	opacity: 0;
+	transition: opacity 0.4s ease-in-out;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.overlay:hover .link 
+{
+	opacity: 0.6;
+}
+
+.project p 
+{
+	color: #514f4f;
+	font-size: 18px;
+	font-weight: bold;
+	position: absolute;
+	bottom: 10%;
+	left: 10%;
+}
+
+.hello
+{
+	position: relative;
+	height: 600px;
+	width: 100%;
+}
+
+.overlay1
+{
+	position: absolute;
+	width: 100%;
+	height: 600px;
+	background-color: #1b1d1f;
+	left: 0px;
+	top: 0px;
+	opacity: 1;
+}
+
+h5
+{
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	top: 22%;
+	color: #ffffff;
+	font-size: 60px;
+	font-weight: bold;
+	line-height: 26px;
+}
+
+section:nth-child(4) > .hello > .button
+{
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+section:nth-child(4) > .hello > p 
+{
+	position: absolute;
+	color: #ffffff;
+	font-size: 24px;
+	font-weight: bold;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 22%;
+}
+ 
+section:nth-child(4) > .hello > p > a
+{
+	text-decoration: none;
+	cursor: pointer;
+}
+
+section:nth-child(4) > .hello > .overlay1 > img 
+{
+	position: absolute;
+	width: 100%;
+	height: 600px;
+	top: 0%;
+	left: 0%;
+}
+
+footer
+{
+	position: relative;
+	height: 5vh;
+	background-color: white;
+	width: 86%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.info 
+{
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	color: #272a2d;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+											/*           ME D I A   1 8 0 0 P X       */
+
+@media (max-width: 1800px)
+{
+	header nav 
+	{
+		right: 18%;
+	}
+	
+	section:nth-child(3)
+	{
+		height: 195vh;
+	}
+}
+
+											/*           ME D I A   1 6 0 0 P X       */
+
+@media (max-width: 1600px)
+{
+	header
+	{
+		z-index: 3;
+	}
+	
+	header nav 
+	{
+		right: 15.5%;
+	}
+	
+	header > img
+	{
+		height: 85vh;
+		width: 80%;
+	}
+	
+	.button
+	{
+		left: 35%;
+	}
+	
+	section:nth-child(1)
+	{
+		height: 90vh;
+		width: 80%;
+		z-index: 2;
+	}
+
+	section:nth-child(2)
+	{
+		height: 95vh;
+		width: 80%;
+		z-index: 1;
+	}
+
+	section:nth-child(3)
+	{
+		height: 195vh;
+		width: 80%;
+	}
+	
+	section:nth-child(4)
+	{
+		height: 60vh;
+		width: 80%;
+	}
+	
+	.hello
+	{
+		height: 470px;
+	}
+	
+	.overlay1
+	{
+		height: 470px;
+	}
+	
+	section:nth-child(4) > .hello > .overlay1 > img 
+	{
+		height: 470px;
+	}
+	
+	footer
+	{
+		width: 80%;
+	}
+	
+	main
+	{
+		margin-top: -25vh;
+	}
+	
+	section:nth-child(1) > img 
+	{
+		bottom: -20%;
+	}
+	
+	.intro
+	{
+		width: 800px;
+		top: 15%;
+	}
+
+	.contener
+	{
+		width: 900px;
+		top: 25%;
+	}
+
+	.content
+	{
+		width: 260px;
+	}
+	
+	h4 
+	{
+		font-size: 30px;
+	}
+	
+	section:nth-child(1) > img 
+	{
+		bottom: -12%;
+		z-index: 2;
+	}
+
+	section:nth-child(3) > .intro
+	{
+		top: 7%;
+	}
+
+	section:nth-child(3) > ul
+	{
+		top: 20%;
+	}
+
+	.projects
+	{
+		top: 25%;
+	}
+}
+
+											/*           ME D I A   1 4 0 0 P X       */
+
+@media (max-width: 1400px)
+{
+	header nav 
+	{
+		right: 13%;
+	}
+	
+	#logo 
+	{
+		left: 17%;
+	}
+
+	h1
+	{
+		left: 23%;
+	}
+	
+	ul > li 
+	{
+		width: 120px;
+	}
+
+	ul > li:first-child
+	{
+		width: 70px;
+	}
+	
+	.button
+	{
+		width: 190px;
+		height: 60px;
+		left: 35%;
+	}
+
+	#line 
+	{
+		right: -15%;
+	}
+	
+	section:nth-child(1)
+	{
+		height: 100vh;
+	}
+
+	section:nth-child(2)
+	{
+		height: 110vh;
+	}
+
+	section:nth-child(3)
+	{
+		height: 280vh;
+	}
+	
+	section:nth-child(4)
+	{
+		height: 60vh;
+	}
+	
+	.intro
+	{
+		left: 10%;
+	}
+
+	.contener
+	{
+		left: 10%;
+	}
+	
+	section:nth-child(2) > .contener
+	{
+		top: 20%;
+	}
+	
+	section:nth-child(2) > img 
+	{
+		left: 8%;
+		bottom: -16%;
+	}
+	
+	section:nth-child(3) > .intro
+	{
+		top: 6%;
+	}
+	
+	section:nth-child(3) > ul
+	{
+		top: 17%;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	
+	section:nth-child(3) > ul > li
+	{
+		text-align: center;
+	}
+
+	.projects
+	{
+		top: 20%;
+	}
+	
+	h5
+	{
+		font-size: 55px;
+	}
+	
+	.info 
+	{
+		font-size: 16px;
+		top: 15%;
+	}
+	
+	section:nth-child(4) > .hello > p 
+	{
+		font-size: 20px;
+	}
+}
+
+												/*           ME D I A   1 2 8 0 P X       */
+
+@media (max-width: 1280px)
+{
+	html 
+	{
+		width: 1280px;
+	}
+	
+	header nav 
+	{
+		right: 11%;
+	}
+	
+	section:nth-child(1) > img 
+	{
+		bottom: -21%;
+	}
+	
+	h5
+	{
+		font-size: 45px;
+	}
+}
+
+
+
+
+
+
+
+
+
